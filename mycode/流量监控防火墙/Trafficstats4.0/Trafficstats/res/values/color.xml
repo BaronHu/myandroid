@@ -1,0 +1,31 @@
+<resources>
+
+    <color name="yellow">#FFFF00</color> 
+    <color name="white">#FFFFFF</color> 
+    <color name="green">#008000</color> 
+    <color name="black">#000000</color> 
+
+    <color name="red">#FF0000</color> 
+    <color name="purple">#800080</color> 
+    <color name="grey">#808080</color> 
+    <color name="blue">#0000FF</color> 
+
+    <color name="skyblue">#F0FFFF</color> 
+    <color name="alis">#F0F8FF</color>
+    <color name="orange">#FFDAB9</color> 
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="orange1">#FFFF93</color>
+    <color name="green1">#D3FF93</color>
+    <color name="light_green">#E8FFC4</color>
+    <color name="light_green1">#EFFFD7</color>
+    <color name="light_green2">#F5FFE8</color>
+    <color name="split_color">#2E3030</color>
+
+    <color name="actionbar_separator">#8B1A1A</color> <!-- #8B1A1A -->
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="actionbar_background_start">#23282D</color> <!-- #8B1A1A #082146-->
+    <color name="actionbar_background_end">#23282D</color> <!-- #CD2626 #082146-->
+    <color name="actionbar_background_item_pressed_start">#0882AB</color> <!-- #FF7F00 -->
+    <color name="actionbar_background_item_pressed_end">#0882AB</color> <!-- #EE7600 -->
+
+</resources>

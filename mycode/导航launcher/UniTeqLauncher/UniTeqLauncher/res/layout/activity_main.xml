@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <!-- 左边布局   垂直 -->
+    <LinearLayout android:id="@+id/left_layout"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:paddingTop="3dip" >
+        
+        <!-- <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" > -->
+            
+            <com.unistrong.uniteqlauncher.ui.MyView
+                android:id="@+id/navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:background="@drawable/naa" />
+
+        <!-- </LinearLayout> -->
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dip" >
+
+            <ImageButton
+                android:id="@+id/bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:contentDescription="@string/bt_content"
+                android:scaleType="fitXY"  
+        		android:background="@android:color/transparent"
+                android:src="@drawable/ubt" />
+
+            <ImageButton
+                android:id="@+id/fm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="8dip"
+                android:contentDescription="@string/fm_content"
+                android:scaleType="fitXY"  
+        		android:background="@android:color/transparent"
+                android:src="@drawable/fmt" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dip" >
+            <ImageButton
+                android:id="@+id/photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:contentDescription="@string/photo_content"
+                android:scaleType="fitXY"  
+        		android:background="@android:color/transparent"
+                android:src="@drawable/uphoto" />
+
+            <ImageButton
+                android:id="@+id/video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_weight="0.5"
+                android:contentDescription="@string/video_content"
+                android:scaleType="fitXY"  
+        		android:background="@android:color/transparent"
+                android:src="@drawable/uvideo" />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <!-- 右边布局   垂直 -->
+    <LinearLayout android:id="@+id/right_layout"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:paddingLeft="@dimen/padding_left_e"
+        android:paddingTop="3dip" >
+        
+        <com.unistrong.uniteqlauncher.ui.DateView
+            android:id="@+id/date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:contentDescription="@string/data_time_content"
+            android:background="@drawable/weather_bg"
+            />
+        
+        <include android:id="@+id/musicview" layout="@layout/musicview" />
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="8dip"
+            android:orientation="horizontal"  >
+            
+            <ImageButton
+                android:id="@+id/internet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:contentDescription="@string/hello_world"
+                android:scaleType="fitXY"  
+        		android:background="@android:color/transparent"
+                android:src="@drawable/uinternet" />
+
+            <ImageButton
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="@dimen/padding_left_e"
+                android:contentDescription="@string/hello_world"
+                android:scaleType="fitXY"  
+        		android:background="@android:color/transparent"
+                android:src="@drawable/usettings" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+</LinearLayout>

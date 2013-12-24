@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <string name="app_name">流量监控</string>
+    <string name="notification">流量监控服务已启动</string>
+    <string name="all_apps">联网应用程序</string>
+    <string name="app_traffic">流量统计</string>
+    <string name="traffc_exceed_notification">你本月流量已达警戒值，请注意使用</string>
+    
+    <!-- for text view -->
+    <string name="titleview">流量监控</string>
+    <string name="wifi_title_view">WIFI 流量</string>
+    <string name="gprs_title_view">2G/3G 流量</string>
+    <string name="day_traffic_view">今日已用:</string>
+    <string name="month_traffic_view">本月已用:</string>
+    <string name="month_traffic_left_view">本月剩余:</string>
+    <string name="today">今日:</string>
+    <string name="lastmonth_gprs_traffic_view">上月流量:</string>
+    <string name="change_mode">点击切换模式</string>
+    <string name="menu_more">更多</string>
+    <string name="illegal_input">请输入合理的数据</string>
+    <string name="input_hint">请输入数字</string>
+    
+    <string name="on">开启</string>
+    <string name="off">关闭</string>
+    
+    <!-- for menu item -->
+    <string name="menu_settings">设置</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_exit">退出</string>
+    <string name="help_dialog_title">帮助</string>
+    <string name="close_me">关闭</string>
+    <string name="close_network">关闭网络</string>
+    <string name="help_msg">流量监控软件是一款专门用于监控手机2G/3G和WIFI总流量的使用情况的软件,默认开机自动启动,你可以手动设置启动方式,我们建议设置为开机自动启动,这样可以监控到你每次开机的流量使用状况.</string>
+    
+    <!-- for preferences -->
+    <string name="traffic_setting_category">流量套餐设置</string>
+    <string name="max_month_gprs_title">2G/3G最大月流量限制</string>
+    <string name="max_month_wifi_title">WIFI最大月流量限制</string>
+    <string name="max_month_gprs_summery">2G/3G警戒值:</string>
+    <string name="max_month_wifi_summery">WIFI警戒值:</string>
+    <string name="max_month_gprs_setting">未设置</string>
+    <string name="max_month_wifi_setting">未设置</string>
+    
+    <string name="power_on_setting_category">基本设置</string>
+    <string name="power_on_setting_title">开机是否启动</string>
+    <string name="view_setting_title">是否关闭悬浮框</string>
+    
+    <string name="traffic_correction_category">流量矫正</string>
+    <string name="gprs_used_title">2G/3G已使用</string>
+    <string name="gprs_used_summery">2G/3G已使用:</string>
+    <string name="wifi_used_title">WIFI已使用</string>
+    <string name="wifi_used_summery">WIFI已使用:</string>
+    
+    <string name="traffic_is_less_msg">你的当月2G/3G流量小于20M</string>
+    <string name="traffic_is_less">友情提示</string>
+    <string name="fee_warning">收费警告</string>
+    <string name="fee_warning_msg">你当月使用的2G/3G流量已经超出了月最大流量限制,超出部分将按运营商扣费标准扣费</string>
+    <string name="traffic_ok">本月剩余流量充足,请放心使用</string>
+    <string name="traffic_bad">您本月剩余流量已在警戒值内,请谨慎使用</string>
+    <string name="warning">警告</string>
+    <string name="gprs_warning">2G/3G 流量已经超出最大月流量,关闭数据网或者继续扣费使用?</string>
+    <string name="wifi_warning">"Wifi 流量已经超出最大月流量,是否关闭wifi网络?</string>
+        
+        
+    <string name="corr_title">流量校正设置</string>
+    <string name="clear">清除数据</string>
+    <string name="corr_summary">当月实际使用:</string>
+    <string name="clear_dialog_title">确认清除</string>
+    <string name="clear_dialog_msg">该功能用于更换SIM卡后重新统计流量,执行后将会清空所有历史数据并停止当前SIM卡的流量统计,在下次开机时重新统计.你确定要执行此操作吗？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="clear_ok">数据已清除,请重启手机</string>
+    <string name="isFirstTimeInstalled">安装后需要重启手机才能使用</string>
+    <string name="close_data_transmit">后台数据</string>
+    <string name="pay_off_date">扣费日</string>
+    <string name="choose_payoff_date">请选择扣费日</string>
+    <string name="close_data_network">数据网</string>
+    <string name="close_wifi">关闭WIFI</string>
+    
+    <string name="m">已使用: M</string>
+    <string name="day">日期单位: 日</string>
+    <string name="used_detail">本月2G/3G日流量使用情况</string>
+    <string name="check_detail">详情</string>
+    <string name="back">返回</string>
+
+    <string name="app_name1">网络防火墙</string>
+    <string name="title_enabled">网络防火墙</string>
+    <string name="title_disabled">DroidWall(防火墙已禁用)</string>
+    <string name="showrules">显示规则</string>
+    <string name="applyrules">应用规则</string>
+    <string name="saverules">保存规则</string>
+    <string name="purgerules">清空规则</string>
+    <string name="setpwd">设置密码</string>
+    <string name="help">帮助</string>
+    <string name="traffic">当月流量</string>
+    <string name="close">关闭</string>
+    <string name="exit">退出</string>
+    <string name="fw_enabled">防火墙已启用</string>
+    <string name="fw_disabled">防火墙已禁用</string>
+    <string name="log_enabled">日志已启用</string>
+    <string name="log_disabled">日志已禁用</string>
+    <string name="log_was_enabled">日志已被启用</string>
+    <string name="log_was_disabled">日志已被禁用</string>
+    <string name="log_cleared">日志已清除</string>
+    <string name="show_log">显示日志</string>
+    <string name="clear_log">清除日志</string>
+    <string name="applying_rules">应用iptables规则.</string>
+    <string name="saving_rules">保存iptables规则.</string>
+    <string name="deleting_rules">删除iptables规则.</string>
+    <string name="rules_applied">规则应用成功</string>
+    <string name="rules_saved">规则保存成功</string>
+    <string name="rules_deleted">规则删除成功</string>
+    <string name="pass_titleset">设置密码锁定</string>
+    <string name="pass_titleget">需要密码</string>
+    <string name="enterpass">输入密码:</string>
+    <string name="enternewpass">输入新密码(放空则删除):</string>
+    <string name="passdefined">密码锁定已设置</string>
+    <string name="passremoved">密码锁定已移除</string>
+    <string name="passerror">改变密码锁定出错</string>
+    <string name="working">工作中...</string>
+    <string name="reading_apps">读取安装的程序</string>
+    <string name="please_wait">请稍等</string>
+    <string name="mode_header">模式:</string>
+    <string name="mode_whitelist">白名单(允许选中项联网)</string>
+    <string name="mode_blacklist">黑名单(阻止选中项联网)</string>
+    <string name="toast_bin_installed">DroidWall: 二进制文件已安装!</string>
+    <string name="toast_error_enabling">DroidWall: 启用防火墙时出错!</string>
+    <string name="help_dialog_text"><i>作者: Rodrigo Zechin Rosauro</i>
+		\n<i><a href="http://droidwall.googlecode.com">http://droidwall.googlecode.com</a></i>
+		\n
+		\n<i>修改者：Baron</i>
+		\n
+		\n<i>DroidWall - Android 防火墙</i> 是Linux上功能强大的<b>iptables</b>防火墙前端程序.
+		它可以让你限定哪些程序可以访问你的数据网络.
+		\n如果你没有不限流量的套餐或只是想延长电池使用时间,这将是一个完美的解决方案.
+		\n
+		\n<b>使用DroidWall:</b>
+		\n<b>1.</b> 点击<b>模式</b>切换 <i>白名单</i> 和 <i>黑名单</i> 模式.
+		\n<b>2.</b> 标记你想阻止或允许(取决于已选择的模式)的程序, 针对每一个接口.
+		\n<b>3.</b> 打开菜单启用防火墙. 如果防火墙已启用,只需要选择<b>应用规则</b>.
+		\n规则将被保存并在你重启手机后自动恢复.
+		\n如果你想检查当前iptables规则, 在菜单中选择<b>显示规则</b>.
+		\n
+		\n<b>桌面小插件:</b>
+		\n为了快速启用或禁用防火墙, 添加DroidWall桌面小插件到主屏幕.
+		\n
+		\n<b>防火墙日志:</b>
+		\n如果你想看到哪些程序被DroidWall阻止, 打开菜单并启用日志.
+		\nDroidWall将会记录每一个被阻止的程序. 你可以打开菜单并选择 <b>更多 -&gt; 显示日志</b> 来检查日志.
+		\n
+		\n<b>程序锁:</b>
+		\n你可以使用菜单中的<b>设置密码</b>选项来为DroidWall设置密码锁.
+		\n若要移除密码保护,只需要将它重置为空白.
+		\n
+		\n<b>流量显示:</b>
+		\n记录每个联网程序的流量使用，分为上传和下载量，当没有数据或获取数据失败时为显示N/A.
+		\n
+		\n<b>月流量统计:</b>
+		\n记录当月所使用的流量，这个数据从月初开始统计才准确，所以假如您是月中开始使用本软件，则请使用到下个月再参考本数据.
+		\n
+	</string>
+	<!-- add by baron.hu -->
+    <string name="select_mode">选择模式:</string>
+    <string name="rules_purged_with_success">规则应用成功</string>
+    <string name="error_installing_binary_files">安装二进制文件错误:</string>
+    <string name="firewall">网络防火墙</string>
+    <string name="no_root_permission">未获取root权限</string>
+    <string name="need_root_permission">需要root权限才能设置系统联网防火墙</string>
+    <string name="i_knew">我知道了</string>
+	<string name="error_refreshing_iptables">刷新Iptables出错</string>
+	<string name="error_applying_iptables_rules">应用Iptables规则出错</string>
+	<string name="error_purging_iptables">净化Iptables规则出错</string>
+	<string name="error">错误:</string>
+	<string name="error_clear_log"> 清除日志失败</string>
+	<string name="error_show_log">显示日志失败</string>
+</resources>

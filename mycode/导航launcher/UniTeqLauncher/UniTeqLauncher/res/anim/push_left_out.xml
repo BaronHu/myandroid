@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 动画从右向左退出,-100表示退出整个屏幕 -->
+<set android:fillAfter="false" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	<translate android:duration="500"
+	     android:fromXDelta="0.0" 
+	     android:toXDelta="-100.0%p"
+	     android:fromYDelta="0.0"
+	     android:toYDelta="0.0"
+	/>
+</set>

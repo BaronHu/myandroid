@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="settings">
+		
+	    <Preference android:key="gprs_max"
+	        android:title="@string/max_month_gprs_title"
+	        android:dialogTitle="@string/max_month_gprs_title"
+	        android:summary="@string/max_month_gprs_summery" />
+	    <Preference android:key="wifi_max"
+	        android:title="@string/max_month_wifi_title"
+	        android:dialogTitle="@string/max_month_wifi_title"
+	        android:summary="@string/max_month_wifi_summery" />
+	    <ListPreference android:key="payoff_date"
+	        android:title="@string/pay_off_date"
+	        android:entries="@array/pay_date"
+	        android:entryValues="@array/pay_date_value"
+	        android:defaultValue="1" />
+
+	    <Preference android:key="corr"
+	        android:title="@string/corr_title" />
+	    <Preference android:key="clear"
+	        android:title="@string/clear" />
+	    <CheckBoxPreference android:key="close_data_transmit" 
+	        android:title="@string/close_data_transmit"/>
+	    <CheckBoxPreference android:key="close_data_network"
+	        android:title="@string/close_data_network"/>
+	    <CheckBoxPreference android:key="close_wifi"
+	        android:title="@string/close_wifi" />
+
+</PreferenceScreen>

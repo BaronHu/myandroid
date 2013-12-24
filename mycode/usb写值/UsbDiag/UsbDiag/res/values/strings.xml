@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, UsbDiagMain!</string>
+    <string name="app_name">UsbDiag</string>
+    <string name="usb_diag">usbdiag</string>
+    <string name="usb_diag_title">DIAG</string>
+</resources>

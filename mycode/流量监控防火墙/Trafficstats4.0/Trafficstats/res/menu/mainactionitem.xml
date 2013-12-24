@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/firewall"
+            android:title="@string/app_name1"
+            android:showAsAction="ifRoom|withText"
+            android:icon="@drawable/firewall"/>
+        
+        <item android:id="@+id/setting"
+            android:title="@string/menu_settings"
+            android:showAsAction="ifRoom|withText"
+            android:icon="@drawable/setting"/>
+    </menu>

@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   <com.unistrong.uniteqlauncher.secondview.MyGridView
+         android:id="@+id/mGridview" 
+         android:layout_width="wrap_content" 
+         android:layout_height="fill_parent" 
+         android:padding="3dp"
+         android:numColumns="4"  
+         android:listSelector="@drawable/selector_tile_click"
+         android:stretchMode="columnWidth" 
+      	 android:gravity="center"
+         />
+
+</RelativeLayout>

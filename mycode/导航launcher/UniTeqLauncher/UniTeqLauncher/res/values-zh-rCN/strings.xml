@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UniTeq启动器</string>
+   
+    <string name="one">菜单一</string>
+    <string name="two">菜单二</string>
+    
+    <string name="default_appname">浏览器</string>
+    <string name="prompt">请选择您喜欢的应用程序</string>
+    
+    <!-- image button content description -->
+    <string name="setting_content">设置</string>
+    <string name="data_time_content">日期设置</string>
+    <string name="navigation_content">导航</string>
+    <string name="bt_content">蓝牙</string>
+    <string name="fm_content">收音机</string>
+    <string name="photo_content">相册</string>
+    <string name="video_content">视频</string>
+    <string name="music_content">音乐</string>
+    
+    <string name="shortcut_prompt">快捷菜单</string>
+    <string name="no_sdcard">未检测到SD卡</string>
+    
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+    <string name="no_music">没有音乐</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="on">启动服务</string>
+    <string name="off">关闭服务</string>
+    <string name="update">刷新数据</string>
+    <string name="text"> </string>
+    <string name="nothing">nothing</string>
+    <string name="working">正在读取</string>
+    <string name="reading_apps">正在加载所有数据,请稍后</string>
+    <string name="toast">没有可更新的数据</string>
+    <string name="clear">清空数据</string>
+    <string name="reload">重新加载</string>
+    <string name="scan">开始扫描</string>
+    <string name="exit">退出程序</string>
+
+</resources>

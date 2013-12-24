@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    >
+<TextView  android:id="@+id/titleView"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/titleview"
+    android:textColor="#aa0000"
+    android:textSize="24sp"
+    android:layout_marginLeft="100dip"
+    android:layout_marginTop="8dip"
+    />
+
+<TextView  android:id="@+id/gprsTitleView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/gprs_title_view"
+     android:textSize="18sp"
+     android:textColor="#005757"
+     android:layout_marginTop="10dip"
+     android:drawablePadding="4dip"
+     />
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView  android:id="@+id/dayGprsTrafficView" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/day_traffic_view"
+    	android:layout_marginLeft="50dip"
+    	android:textColor="#0080FF"
+    	/>
+    <TextView android:id="@+id/dayGprsTrafficViewValue" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0080FF"
+        />
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView  android:id="@+id/thisMonthGprsTrafficView" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/month_traffic_view"
+    	android:layout_marginLeft="50dip"
+    	android:textColor="#0080FF"
+    	/>
+    <TextView android:id="@+id/thisMonthGprsTrafficViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0080FF"
+        />
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView  android:id="@+id/thisMonthGprsTrafficLeftView" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/month_traffic_left_view"
+    	android:layout_marginLeft="50dip"
+    	android:textColor="#0080FF"
+    	/>
+    <TextView android:id="@+id/thisMonthGprsTrafficLeftViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0080FF"
+        />
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView android:id="@+id/lastMonthGpfsTrafficView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lastmonth_gprs_traffic_view"
+        android:layout_marginLeft="50dip"
+    	android:textColor="#0080FF"
+        />
+    <TextView android:id="@+id/lastMonthGpfsTrafficViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0080FF" 
+        />
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView  android:id="@+id/thisMonthGprsTrafficLeftOkView" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="20dip"
+    	android:textColor="#008000"
+    	android:layout_marginTop="30dip"
+    	/>
+</LinearLayout>
+
+<TextView  android:id="@+id/wifiTitleView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/wifi_title_view"
+    android:textSize="18sp"
+    android:textColor="#005757"
+    android:layout_marginTop="20dip"
+    android:drawablePadding="4dip"
+    />
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView  android:id="@+id/dayWifiTrafficView" 
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="50dip"
+    	android:text="@string/day_traffic_view"
+    	android:textColor="#0080FF"
+    	/>
+    <TextView  android:id="@+id/dayWifiTrafficViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0080FF"
+         />
+    
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView  android:id="@+id/thisMonthWifiTrafficView" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="50dip"
+    	android:text="@string/month_traffic_view"
+    	android:textColor="#0080FF"
+    	/>
+    <TextView  android:id="@+id/thisMonthWifiTrafficViewValue"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#0080FF"
+         />
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView android:id="@+id/lastMonthWifiTrafficView" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:text="@string/lastmonth_gprs_traffic_view"
+        android:textColor="#0080FF"
+        />
+    <TextView android:id="@+id/lastMonthWifiTrafficViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0080FF"/>
+</LinearLayout>
+
+</LinearLayout>

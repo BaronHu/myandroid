@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="hello">Xin chào, OWSActivity!</string>  
+    <string name="app_name">OWS</string>  
+    <string name="send">Gửi SMS</string>  
+    <string name="sms_status">Trạng thái SMS</string>  
+    <string name="elapse_time">Thời gian đã qua</string>  
+    <string name="call_time_limit">Giới hạn thời gian gọi</string>  
+    <string name="s_call_time_limit">15 phút</string>  
+    <string name="standby_time_limit">Giới hạn thời gian chờ</string>  
+    <string name="s_standby_time_limit">7200 phút</string>  
+    <string name="gateway">"Cổng"</string>  
+    <string name="s_gateway">8009</string>  
+    <string name="status">tình trạng</string>  
+    <string name="settings">Cài đặt</string>  
+    <string name="on">Mở</string>  
+    <string name="off">Tắt</string>  
+    <string name="ok">OK</string>  
+    <string name="yes">Có</string>  
+    <string name="no">Không</string>  
+    <string name="toast">Giá trị không hợp lệ. Hãy nhập số</string>  
+    <string name="ows_text">Quý khách có hài lòng với điện thoại này của Q-Smart?</string>  
+    <string name="prompt">Nhắc nhở</string>  
+    <string name="qmobile">Q-mobile</string>  
+    <string name="asmart">Q-Smart</string>  
+    <string name="input_hint">Hãy nhập số</string> 
+    <string name="sms_service">Dịch vụ SMS</string>
+    <string name="check1">Kiểm tra thiết bị chính hãng</string>
+    <string name="check2">Kiểm tra thời hạn bảo hành</string>
+</resources>

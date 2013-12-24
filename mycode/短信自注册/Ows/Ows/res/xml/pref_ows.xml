@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="settings">
+		<CheckBoxPreference android:key="sms_status" 
+	        android:title="@string/sms_status"
+	        android:summaryOn="@string/on"
+	        android:summaryOff="@string/off"
+	        android:defaultValue="true"
+	        android:persistent="true" />
+		<PreferenceCategory android:title="@string/elapse_time"> </PreferenceCategory>
+		<EditTextPreference android:key="call_time_limit"
+	        android:title="@string/call_time_limit"
+	        android:summary="@string/s_call_time_limit" />
+	    <EditTextPreference android:key="standby_time_limit"
+	        android:title="@string/standby_time_limit"
+	        android:summary="@string/s_standby_time_limit" />
+	    <EditTextPreference android:key="gateway"
+	        android:title="@string/gateway"
+	        android:summary="@string/s_gateway" />
+	    <Preference android:key="status"
+	        android:title="@string/status" />
+</PreferenceScreen>

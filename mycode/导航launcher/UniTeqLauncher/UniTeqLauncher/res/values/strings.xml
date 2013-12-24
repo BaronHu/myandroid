@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UniTeqLauncher</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="refresh">Choose</string>
+    <string name="prompt">Please pick up your favorite</string>
+    <string name="prompt_text">Please choose</string>
+    <string name="options">Options</string>
+    <string name="default_appname">Browser</string>
+    
+    <!-- image button content description -->
+    <string name="setting_content">Settings</string>
+    <string name="data_time_content">Data Setting</string>
+    <string name="navigation_content">Navigation</string>
+    <string name="bt_content">Bluetooth</string>
+    <string name="fm_content">FM Radio</string>
+    <string name="photo_content">Photo</string>
+    <string name="video_content">Video</string>
+    <string name="music_content">Music</string>
+    
+    <string name="shortcut_prompt">Shortcut Menu</string>
+    <string name="no_sdcard">No SD Card</string>
+    <string name="no_music">No music in SD card</string>
+    
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    
+</resources>

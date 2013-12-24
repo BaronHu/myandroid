@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:paddingTop="8dp"  
+	android:paddingBottom="8dp"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp"
+    >
+    <!-- 大布局：水平 -->
+    <LinearLayout android:id="@+id/main_layout"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+        <!-- 大布局下的左边布局:垂直 -->
+        <LinearLayout android:id="@+id/left_layout"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            
+            <!-- 导航界面 -->
+            <RelativeLayout
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="1.47">
+	    		
+	            <com.unistrong.uniteqlauncher.secondview.MyView2
+                	android:id="@+id/navigation"
+                	android:layout_width="fill_parent"
+                	android:layout_height="fill_parent"
+                	android:clickable="true"      
+				    android:scaleType="fitXY" 
+                	android:background="@drawable/naa" />            
+                	   
+            </RelativeLayout>
+            
+            
+            <LinearLayout
+                android:orientation="vertical"
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="1"
+	    		android:layout_marginTop="8dp" 
+	            >
+	        <!-- bt and fm -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.1" >
+
+                    <ImageButton
+                        android:id="@+id/bt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/bt_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ubt" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1" >
+
+                    <ImageButton
+                        android:id="@+id/fm"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/fm_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/fmt" />
+                </RelativeLayout>
+            </LinearLayout>
+            
+            <!-- photo and video -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.1" >
+
+                    <ImageButton
+                        android:id="@+id/photo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/photo_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/uphoto" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1" >
+
+                    <ImageButton
+                        android:id="@+id/video"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_toRightOf="@+id/photo"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/video_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/uvideo" />
+                </RelativeLayout>
+            </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        <!--右边LiearLayout：垂直  -->
+        <LinearLayout android:id="@+id/right_layout"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:layout_marginLeft="8dp"
+            >
+            
+            <!-- date and time -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.12" >
+
+                <com.unistrong.uniteqlauncher.ui.DateView
+                    android:id="@+id/date_time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/weather_bg"
+                    android:contentDescription="@string/data_time_content" />
+            </RelativeLayout>
+            
+             <RelativeLayout
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="1.32"
+	            >
+                <include android:id="@+id/musicview" layout="@layout/musicview" />
+            </RelativeLayout>
+            
+             <!-- browser and settings -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.35"
+                android:layout_marginTop="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <ImageButton
+                        android:id="@+id/internet"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/hello_world"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/uinternet" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1" >
+
+                   <ImageButton
+                       android:id="@+id/setting"
+                       android:layout_width="fill_parent"
+                       android:layout_height="fill_parent"
+                       android:background="@android:color/transparent"
+                       android:contentDescription="@string/hello_world"
+                       android:scaleType="fitXY"
+                       android:src="@drawable/usettings" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+</RelativeLayout>

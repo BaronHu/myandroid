@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 在Android动画， fillBefore是指动画结束时画面停留在第一帧，fillAfter是指动画结束是画面停留在最后一帧。 -->
+<set android:fillAfter="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate 
+        android:duration="500" 
+        android:fromXDelta="0.0" 
+        android:toXDelta="-57.0%p" 
+        android:fromYDelta="0.0" 
+        android:toYDelta="0.0" />
+</set>

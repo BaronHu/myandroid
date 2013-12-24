@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+	android:duplicateParentState="false"
+	android:id="@+id/firewall">
+	
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:padding="3sp">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/img_wifi"
+			android:src="@drawable/wifi" 
+			android:clickable="false"
+			android:layout_alignParentLeft="true" 
+			android:paddingLeft="3sp"
+			android:paddingRight="10sp"/>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/img_3g"
+			android:layout_toRightOf="@id/img_wifi" 
+			android:src="@drawable/g"
+			android:clickable="false"/>
+		
+		<TextView android:id="@+id/all_app"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_toRightOf="@id/img_3g"
+		    android:paddingLeft="18sp"
+		    android:text="@string/all_apps"/>
+		
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/img_upload"
+			android:layout_toRightOf="@id/all_app" 
+			android:src="@drawable/g"
+			android:paddingLeft="120sp"
+			android:clickable="false"/>
+		
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/img_download"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/wifi"
+			android:paddingLeft="22sp"
+			android:clickable="false"/>
+		
+	</RelativeLayout>
+	<View android:layout_width="fill_parent" 
+	    android:layout_height="1sp"
+		android:background="#FFFFFFFF" />
+		
+	<ListView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:id="@+id/listview" />
+</LinearLayout>

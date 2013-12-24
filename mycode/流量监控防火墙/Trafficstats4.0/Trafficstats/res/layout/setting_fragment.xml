@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+ 	<TableLayout android:id="@+id/setting"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="*" >
+            <TableRow android:id="@+id/gprs_max_tablerow"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip"
+				android:background="@drawable/actionbar_btn" >
+                <TextView android:id="@+id/gprs_max"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:textSize="18sp"
+					android:gravity="left"
+					android:paddingLeft="10dip"
+					android:text="@string/max_month_gprs_title" />
+				<TextView android:id="@+id/gprs_max_value"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="right"
+					android:paddingRight="10dip" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+            
+            <TableRow android:id="@+id/wifi_max_tablerow"
+				android:background="@drawable/actionbar_btn"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip" >
+                <TextView android:id="@+id/wifi_max"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="left"
+					android:paddingLeft="10dip"
+					android:text="@string/max_month_wifi_title" />
+				<TextView android:id="@+id/wifi_max_value"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="right"
+					android:paddingRight="10dip" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+            
+            <TableRow android:id="@+id/corr_tablerow"
+				android:background="@drawable/actionbar_btn"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip" >
+                <TextView android:id="@+id/corr"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="left"
+					android:paddingLeft="10dip"
+					android:text="@string/corr_title" />
+				<TextView android:id="@+id/corr_value"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="right"
+					android:paddingRight="10dip" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+			
+			<TableRow android:id="@+id/payoff_date_tablerow"
+				android:background="@drawable/actionbar_btn"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip" >
+                <TextView android:id="@+id/payoff_date"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="left"
+					android:paddingLeft="10dip"
+					android:text="@string/pay_off_date" />
+				<TextView android:id="@+id/payoff_date_value"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="right"
+					android:paddingRight="10dip" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+				
+			<TableRow android:id="@+id/clear_tablerow"
+				android:background="@drawable/actionbar_btn"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip" >
+                <TextView android:id="@+id/clear"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="left"
+					android:paddingLeft="10dip"
+					android:text="@string/clear" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+				
+			<TableRow android:paddingBottom="15dip"
+                android:paddingTop="15dip">
+				<TextView android:id="@+id/close_data_transmit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="left"
+					android:paddingLeft="10dip"
+					android:text="@string/close_data_transmit" />
+				<Switch android:id="@+id/close_data_transmit_switch"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:paddingRight="10dip"
+					android:textOn="@string/on"  
+	                android:textOff="@string/off"
+	                android:checked="true" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+				
+			<TableRow android:paddingBottom="15dip"
+                android:paddingTop="15dip">
+				<TextView android:id="@+id/close_data_network"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="left"
+					android:paddingLeft="10dip"
+					android:text="@string/close_data_network" />
+				<Switch android:id="@+id/close_data_network_switch"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:paddingRight="10dip"
+					android:textOn="@string/on"  
+	                android:textOff="@string/off"
+	                android:checked="true" />
+            </TableRow>
+		
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+				
+			<!-- <TableRow android:paddingBottom="15dip"
+                android:paddingTop="15dip">
+				<TextView android:id="@+id/close_wifi"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:gravity="left"
+					android:paddingLeft="10dip"
+					android:text="@string/close_wifi" />
+				<Switch android:id="@+id/close_wifi_switch"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:paddingRight="10dip"
+					android:textOn="@string/on"  
+	                android:textOff="@string/off"
+	                android:checked="true" />
+            </TableRow> -->
+		
+     </TableLayout>
+
+</FrameLayout>

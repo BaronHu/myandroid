@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <ImageView android:id="@+id/appicon"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter" />
+    <TextView android:id="@+id/appname"
+        android:layout_below="@+id/appicon"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        android:maxLines="2"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+</RelativeLayout>

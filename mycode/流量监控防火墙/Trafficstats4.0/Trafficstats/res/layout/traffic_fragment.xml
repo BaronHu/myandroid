@@ -1,0 +1,236 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/trafficmonitor" >
+
+	<TextView android:layout_height="1dip"
+		android:layout_width="wrap_content"/>
+		
+	<!-- android:background="@drawable/bg" -->
+    <TextView
+        android:id="@+id/gprsTitleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:background="@color/split_color"
+        android:text="@string/gprs_title_view"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/g"
+        android:textSize="24dp" />
+
+	<!-- android:background="@color/white"  -->
+    <FrameLayout
+        android:id="@+id/gprs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+		<!--  android:background="@color/alis"-->
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="*" >
+            <!-- android:background="@color/white" -->
+            <TableRow
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/dayGprsTrafficView"
+                    android:gravity="left"
+                    android:paddingLeft="15dip"
+                    android:text="@string/day_traffic_view"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/dayGprsTrafficViewValue"
+                    android:gravity="right"
+                    android:paddingRight="15dip"
+                    android:textSize="16dp" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+
+            <TableRow
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/thisMonthGprsTrafficView"
+                    android:gravity="left"
+                    android:paddingLeft="15dip"
+                    android:textSize="16dp"
+                    android:text="@string/month_traffic_view" />
+
+                <TextView
+                    android:id="@+id/thisMonthGprsTrafficViewValue"
+                    android:gravity="right"
+                    android:paddingRight="15dip"
+                    android:textSize="16dp" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+
+			<!-- android:background="@color/white" -->
+            <TableRow
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lastMonthGpfsTrafficView"
+                    android:gravity="left"
+                    android:paddingLeft="15dip"
+                    android:textSize="16dp"
+                    android:text="@string/lastmonth_gprs_traffic_view" />
+
+                <TextView
+                    android:id="@+id/lastMonthGpfsTrafficViewValue"
+                    android:gravity="right"
+                    android:paddingRight="15dip"
+                    android:textSize="16dp" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+
+            <TableRow
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/thisMonthGprsTrafficLeftView"
+                    android:gravity="left"
+                    android:paddingLeft="15dip"
+                    android:textSize="16dp"
+                    android:text="@string/month_traffic_left_view" />
+
+                <TextView
+                    android:id="@+id/thisMonthGprsTrafficLeftViewValue"
+                    android:gravity="right"
+                    android:paddingRight="15dip"
+                    android:textSize="16dp" />
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+	<!-- android:background="@drawable/bg" -->
+    <TextView
+        android:id="@+id/wifiTitleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:background="@color/split_color"
+        android:text="@string/wifi_title_view"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/wifi"
+        android:textSize="24dp" />
+
+	<!-- android:background="@color/white" -->
+    <FrameLayout
+        android:id="@+id/wifi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         >
+		<!-- android:background="@color/alis" -->
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="*" >
+			<!-- android:background="@color/white" -->
+            <TableRow
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+                <TextView
+                    android:id="@+id/dayWifiTrafficView"
+                    android:gravity="left"
+                    android:paddingLeft="15dip"
+                    android:textSize="16dp"
+                    android:text="@string/day_traffic_view" />
+
+                <TextView
+                    android:id="@+id/dayWifiTrafficViewValue"
+                    android:gravity="right"
+                    android:paddingRight="15dip"
+                    android:textSize="16dp" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+
+            <TableRow
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/thisMonthWifiTrafficView"
+                    android:gravity="left"
+                    android:paddingLeft="15dip"
+                    android:textSize="16dp"
+                    android:text="@string/month_traffic_view" />
+
+                <TextView
+                    android:id="@+id/thisMonthWifiTrafficViewValue"
+                    android:gravity="right"
+                    android:paddingRight="15dip"
+                    android:textSize="16dp" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+				
+			<!-- android:background="@color/white" -->
+            <TableRow
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lastMonthWifiTrafficView"
+                    android:gravity="left"
+                    android:paddingLeft="15dip"
+                    android:textSize="16dp"
+                    android:text="@string/lastmonth_gprs_traffic_view" />
+
+                <TextView
+                    android:id="@+id/lastMonthWifiTrafficViewValue"
+                    android:gravity="right"
+                    android:paddingRight="15dip"
+                    android:textSize="16dp" />
+            </TableRow>
+            
+            <TextView android:layout_width="fill_parent"
+				android:layout_height="1dip"
+				android:background="@color/split_color" />
+
+            <TableRow
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/wifiRemaining"
+                    android:gravity="left"
+                    android:paddingLeft="15dip"
+                    android:textSize="16dp"
+                    android:text="@string/month_traffic_left_view" />
+
+                <TextView
+                    android:id="@+id/wifiRemainingValue"
+                    android:gravity="right"
+                    android:paddingRight="15dip"
+                    android:textSize="16dp" />
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+</LinearLayout>
+</TabHost>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, OWSActivity!</string>
+    <string name="app_name">OWS</string>
+    
+    <string name="send">Send SMS</string>
+    <string name="sms_status">SMS Status</string>
+    <string name="elapse_time">Elapse time</string>
+    <string name="call_time_limit">Call Time Limit</string>
+    <string name="s_call_time_limit">15 minutes</string>
+    <string name="standby_time_limit">Standby Time Limit</string>
+    <string name="s_standby_time_limit">7200 minutes</string>
+    <string name="gateway">Gateway</string>
+    <string name="s_gateway">8009</string>
+    <string name="status">Status</string>
+    <string name="settings">Settings</string>
+    <string name="on">On</string>
+    <string name="off">OFF</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="toast">Invalid value,Please input number</string>
+    <string name="ows_text">Would you satisfy with this phone of Q-mobile?</string>
+    <string name="prompt">Prompt</string>
+    <string name="qmobile">Q-mobile</string>
+    <string name="asmart">Q-Smart</string>
+    <string name="input_hint">Please input number</string>
+    <string name="sms_service">SMS service</string>
+    <string name="check1">Checking the original of Q-mobile’s device</string>
+    <string name="check2">Checking the warranty period</string>
+
+</resources>
